@@ -9,3 +9,6 @@ $ gem install capybara
 $ gem install poltergeist
 
 $ gem install nokogiri
+
+#Fix rpsec ruby/2.3.0/rubygems/specification.rb:2158:in error
+gem update --system 2.4.8 --no-ri --no-rdoc
