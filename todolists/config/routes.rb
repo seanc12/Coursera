@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
-  get 'recipes/index'
-  root 'recipes#index'
+  resources :todo_items
+  resources :todo_lists
+  resources :profiles
+  resources :users
+  resources :profiles
+  resources :usernames
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
